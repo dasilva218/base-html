@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    padding: 15px 25px 26px 24px;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 53.3% 35.5%;
+    row-gap: 11.2%;
+    height: 212px;
+}
+
+header > div {
+    display: grid;
+    grid-template-columns: 11.4% 87.7%;
+    column-gap: 0.9%;
+}
+
+.logo, .pub {
+    height: 114px;
+}
+
+.logo {
+    background-color: #6E6E6E;
+}
+
+.pub {
+    background-color: #A6A6A6;
+}
+
+nav {
+    height: 76px;
+    background-color: #6E6E6E;
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: 25.6% 72.7%;
+    column-gap: 1.7%;
+    margin-top: 22px;
+}
+
+.edito, .actualite {
+    height: 357px;
+    background-color: #949494;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 74.3% 24.3%;
+    column-gap: 1.4%;
+    margin-top: 30px;
+}
+
+.produit, .telechargement {
+    height: 340px;
+    background-color: #949494;
+}
+
+footer {
+    height: 87.21px;
+    background-color: #6E6E6E;
+    margin-top: 22px;
+}
+
+
