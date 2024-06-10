@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+header{
+   text-align: center;
+   
+}
+
+ul{
+  display: flex;
+    list-style-type: none;
+    text-align: justify;
+    
+
+}
+
+li {
+    
+    margin: 20px;
+    text-align: justify;
+   
+}
+
+a{
+    text-decoration: none;
+   color: black;
+   text-align: justify;
+}
