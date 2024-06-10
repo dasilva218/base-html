@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --text-color: green;
+    --custom-font: 'Times New Roman';
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+nav>ul a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--custom-font);
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+nav>ul a:hover {
+    color: black;
+    border-bottom: 4px solid yellow;
+}
+
