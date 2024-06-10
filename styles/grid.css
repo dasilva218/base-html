@@ -13,7 +13,7 @@ a:link{
 }
 a:hover{
     color: rgb(25, 206, 109);
-    text-decoration: underline;
+    border-bottom: 5px solid yellow;
 }   
 nav> ul{
     display: grid;
@@ -25,4 +25,10 @@ header{
 }
 ul{
     color: green;
+}
+.deroulant{
+    float: none;
+}
+.sous{
+
 }
