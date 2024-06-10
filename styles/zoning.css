@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+
+}
+.zoningB{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(214, 193, 193);
+}
+
+.grid{
+    height: 215px;
+    width: 100%;
+    background-color: #d11414;
+    padding: 8px;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-gap: 20px 10px;
+    display: flex;
+
+}
+
+.Link1{
+    height: 100px;
+    width: 450px;
+    background-color: rgb(33, 128, 134);
+    align-items: baseline;
+
+}
+
+.navLink2{
+    height: 150px;
+    width: 800px;
+    background-color: rgb(172, 52, 126);
+    justify-content: space-around;
+}
+
+.navLink3{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(19, 148, 26);
+    
+}
+
+.grid{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(69, 90, 66);
+    margin: 100px auto;
+    padding: 8px;
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-gap: 20px 10px;
+    display: flex;
+
+
+}
+
+.main1{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(61, 223, 128);
+    padding: 15px;
+}
+
+.main2{
+    height: 50px;
+    width: 250px;
+    background-color: rgb(6, 41, 41);
+}.main3{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(187, 27, 102);
+}.main4{
+    height: 40px;
+    width: 250px;
+    background-color: rgb(16, 194, 16);
+}
+
+.footerZ{
+    height: 250;
+    width: 140px;
+    background-color: #d11414;
+    justify-content: center;
+    -webkit-margin-bottom-collapse: 50px auto;
+}
+
+.headerG{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 8px;
+    background-color: #d11414;
+    height: 250px;
+    width: 1511px;
+
+}
+
+.enfant1{
+    height: 100px;
+    width: 250px;
+    background-color: #d4c7c7;
+}
+
+
+.enfant2{
+    height: 100px;
+    width: 250px;
+    background-color: #642828;
+}.enfant3{
+    height: 100px;
+    width: 250px;
+    background-color: #4abb86;
+}
+
+.enfant4{
+    height: 100px;
+    width: 250px;
+    background-color: #ac2626;
+}
+
+
+

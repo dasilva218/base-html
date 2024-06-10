@@ -1,0 +1,27 @@
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+nav> ul{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    justify-content: space-between;
+    list-style: none;
+    background-color: white;
+    
+    
+    
+}
+ 
+    a:hover {
+      background: rgb(235, 59, 147);
+    }
+
+a{
+    text-decoration: none;
+}
