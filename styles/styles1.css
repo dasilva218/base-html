@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   /* border: 1px solid black;*/
+    /*border: 1px solid black;*/
   
 }
 
@@ -10,13 +10,13 @@
     --color-jaune: #f3ef0b;
     --color-noir: #000;
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --font-sieze: 2em;
+    --font-sieze: 1em;
 }
 
 ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 10em;
     list-style-type: none;
     text-align: center;
 
@@ -34,3 +34,18 @@ a:hover{
     border-bottom: 1px solid var(--color-jaune);
 }
 
+ul li ul{
+ display: none;
+  position: absolute;
+  background-color: #646060;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+ul li:hover > ul{
+    display: block;
+    margin-left: 40px;
+}
