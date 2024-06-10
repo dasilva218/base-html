@@ -55,3 +55,26 @@ header {
     grid-column-end: 6;
     background-color: black;
 }
+nav {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+nav ul {
+    display: 20px;
+    padding-left: 30%;
+}
+nav ul li {
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+nav ul li a {
+    text-decoration: underline;
+    color: blue;
+}
+nav ul li a:hover {
+    color: #000;
+    text-decoration:underline
+}
