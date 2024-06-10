@@ -1,0 +1,28 @@
+/*reset css */
+*{
+    margin: o;
+    padding: 0;
+    border: 1px black;
+}
+ul{
+    display: grid;
+    text-align: center;
+    list-style-type: none;
+    grid-template-columns:repeat(4, 1fr) ;
+
+}
+:root{
+    color: rgb(59, 201, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+li{
+    color: var(green);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+li:hover{
+    color: var(--color-jaune);
+    border-bottom: 3px solid yellow;
+}
