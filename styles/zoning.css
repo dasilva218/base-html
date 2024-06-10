@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      }
+      
+    header {
+      border: 1px solid black;
+      height: 114px;
+      display: flex;
+      grid-template-columns: 11.4% 87.7%;
+      column-gap:0.9px;
+    }
+    heade>div{
+      display: grid;
+      row-gap: 12%;
+    
+     
+       }
+      .header-nav {
+      height: 76px;
+      background-color: #6E6E6E;
+      }
+      
+      .main {
+      padding: 20px 24px;
+      
+    }
+    .header-logo {
+      border: 1px solid black;
+      width: 192px;
+      height: 114px;
+      background-color: #A6A6A6;    
+    }
+    
+      .header-pub {
+      border: 1px solid black;
+      width: 589px;
+      height: 114px;
+      background-color: #6E6E6E; 
+      margin-left: 20%;
+    }
+  
