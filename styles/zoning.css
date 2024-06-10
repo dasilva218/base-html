@@ -1,0 +1,124 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+body{
+    width: 1320px;
+    height: 1000px;
+    border: 2px solid black;
+}
+
+
+
+.navbar{
+    width: 1320px;
+    height: 144px;
+    display: inline-flex; 
+   justify-content: space-evenly;
+    gap: 10px;
+    
+}
+
+.logo{
+    width: 189px;
+    height: 144px;
+     border: 2px solid black;
+  background-color: aqua;
+  margin: 10px;
+  text-align: center;
+  font-size: 6em;
+
+}
+
+.PUB{
+    width: 1015px;
+    height: 144px;
+     border: 2px solid black;
+     background-color: blue;
+     margin-top: 10px;
+    text-align: center;
+    font-size: 6rem;
+}
+
+.navi {
+    width: 1255px;
+    height: 76px;
+    background-color: rgb(226, 43, 43);
+    margin: 35px;
+   text-align: center;
+   font-size: 4rem;
+   border: 2px solid black;
+}
+
+.edit-actu{
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    position: relative;
+    bottom: 35px; 
+}
+
+.edito{
+    width: 430px;
+    height: 250px;
+    background-color: rgb(133, 133, 10);
+    margin: 30px;
+    text-align: center;
+    font-size: 6rem;
+     border: 2px solid black;
+}
+
+.actu{
+    width: 1219px;
+    height: 250px;
+    background-color: rgb(26, 115, 192);
+    margin: 30px;
+    text-align:center;
+    font-size: 6rem;
+     border: 2px solid black;
+
+}
+
+.prest-telech{
+    display: flex;
+    gap: 5px;
+    margin: 0;
+    position: relative;
+    bottom: 55px; 
+}
+
+.telechargement{
+    width: 430px;
+    height: 250px;
+    background-color: rgb(26, 179, 12);
+    margin: 30px;
+    text-align: center;
+    font-size: 3rem;
+     border: 2px solid black;
+}
+
+.presentation{
+    width: 1219px;
+    height: 250px;
+    background-color: rgb(173, 26, 192);
+    margin: 30px;
+    text-align:center;
+    font-size: 6rem;
+     border: 2px solid black;
+
+}
+
+
+.foot{
+    width: 1255px;
+    height: 76px;
+    background-color: rgb(156, 152, 152);
+    margin: 25px;
+   text-align: center;
+   font-size: 4rem;
+   border: 2px solid rgb(0, 0, 0);
+   position: relative;
+   bottom: 75px;
+}
