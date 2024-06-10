@@ -9,15 +9,16 @@ ul{
     text-align: center;
     list-style-type: none;
     grid-template-columns:repeat(4, 1fr) ;
+    
 
 }
 :root{
-    color: rgb(59, 201, 24);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --couleur: rgb(59, 201, 24);
+    --police: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 24px;
 }
 li{
-    color: var(green);
+    color: var(--couleur);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -25,4 +26,7 @@ li{
 li:hover{
     color: var(--color-jaune);
     border-bottom: 3px solid yellow;
+}
+ul{
+
 }
