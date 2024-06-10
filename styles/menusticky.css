@@ -8,21 +8,46 @@
     --custom-font: 'Times New Roman';
 }
 
-nav>ul {
+.menu {
     list-style: none;
     display: flex;
+    margin-top: 10px;
+    justify-content: center;
 }
 
-nav>ul a {
+.menu a {
     text-decoration: none;
     color: var(--text-color);
     font-family: var(--custom-font);
     font-size: 20px;
-    padding: 0 20px;
+    padding: 0 100px;
 }
 
-nav>ul a:hover {
+.menu-hover:hover {
     color: black;
     border-bottom: 4px solid yellow;
 }
+
+.menu li:hover ul {
+    display: block;
+}
+
+.sous-menu {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    padding: 0;
+    text-align: center;
+}
+
+.sous-menu li {
+    display: block;
+}
+
+.sous-menu li a:hover {
+    background-color: #9c8a8a;
+    color: black;
+}
+
+
 
