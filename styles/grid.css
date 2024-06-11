@@ -1,37 +1,71 @@
 :root{
     --police : 'Times New Roman', Times, serif;
+    --primary-color: rgb(255, 255, 255);
+    --font-menu: 42px;
+    --font-sous-menu:23px;
+    --border-color:rgb(231, 231, 17);
+
 }
-
-
 *{
     margin: 0;
     padding: 0;
+    font-family: var(--police);
 }
-nav{
-    height: 6em;
+body{
+    height: 100vh;
     width: 100%;
+    background-color: rgb(224, 159, 159);
 }
-ul{
+
+nav{
+    height: 6vh;
+    background-color: var(--primary-color);
+    
+    
+    
+    
+}
+.menu {
+
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 100%;
-    color: green;
+    font-size: var(--font-menu);
     list-style: none;
-}
-li:hover{
-    border-bottom: 2px solid yellow;
-    color: black;
-}
-li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2em;
-    font-size: 40px;
-
-
+    padding-left: 3em;
+    color: green;
+    
+  
+    
+    
 }
 a{
     text-decoration: none;
     color: inherit;
+    margin-left: 2em;
+   
+}
+.menu>li>a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid yellow;
+}
+
+li{
+    display: block;
+}
+.sous-menu{
+    display: none   ;
+    color: black;
+    background-color: rgb(192, 180, 165);
+    margin: 20px;
+}
+.sous-menu li:hover{
+    background-color: rgb(238, 235, 231);
+    border: none;
+    transition: all 100ms;
+    
+
+
+}
+.click:hover .sous-menu{
+    display: block;
 }
