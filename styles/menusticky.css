@@ -1,16 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
 nav{
-    height: 70px;
+   
     width: 100%;
     font-size: 20px;
-    text-align: center;
+   
+    background-color: azure;
+  
+   
+    
    
 }
 ul{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 70px;
+    
+    list-style-type: none;
+    padding: 10px;
     display: flex;
-    list-style: none;
+    justify-content: space-between;
 }
 li{
-    padding: 30px;
+   
     font-family: var(--police);
     color: rgb(19, 0, 128);
+    width: 30px;
+    text-align: center;
+    padding: 10px;
+    flex: auto;
+}
+nav ul ::after {
+    display: table;
+    
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+nav a:hover {
+    color: brown;
+    border-bottom: 1px solid gold;
 }
