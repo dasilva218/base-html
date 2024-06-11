@@ -21,7 +21,7 @@ nav> ul{
    
 }
 header{
-    margin-left: 15%;
+    margin-left: 5%;
 }
 ul{
     color: green;
@@ -36,7 +36,7 @@ ul{
     float: left;
     width: 200px;
 }
-.menuderoulant li a:link, .menuderoulant li a:visited{
+.menuderoulant li a{
 display: block;
 color: #ffffff;
 background-color: #293245;
@@ -46,7 +46,7 @@ text-align: center;
 text-decoration: none;
 }
 .menuderoulant li a:hover{
-    background-color: #199bd2;
+    background-color: transparent;
 }
 .menuderoulant li a:active{
     background-color: #808080;
@@ -65,14 +65,14 @@ text-decoration: none;
     border-top: 1px solid transparent;
     border-right: 1px solid transparent;
 }
-.menuderoulant .sous-menu li a:link,.menuderoulant li a:visited{
+.menuderoulant .sous-menu li a,.menuderoulant li a{
     display: block;
     color: #1d9707;
     text-decoration: none;
-    background-color: #293245;
+    background-color:transparent;
 }
 .menuderoulant .sous-menu li a:hover{
-    background-color: #199bd2;
+    background-color: transparent;
 }
 .menuderoulant li:hover .sous-menu{
     display: block;
