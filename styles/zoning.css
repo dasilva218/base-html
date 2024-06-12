@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
     font: 12px Arial;
+    justify-content: center;
+    display: flex;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
 }
 
 .menuderoulant {
     height: 60px;
     list-style: none;
     padding: 10px;
-    margin: 40px;
+    margin: 40px
 }
 
 .menuderoulant li {
@@ -18,8 +26,8 @@
 
 .menuderoulant li a:link, .menuderoulant li a:visited {
     display: block;
-    color: #FFFFFF;
-    background: #293245;
+    color: white;
+    background: blue;
     padding: 6px 10px; 
     border-right: #293245;
     text-align: center;
@@ -58,8 +66,4 @@
  
 .menuderoulant li:hover .sousmenu {
     display: block;
-}
- 
-.article .cours .contact .apropos {
-    color: green;
 }
